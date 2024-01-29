@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(images/image2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.main .box {
+  height: 99%;
+  width: 100%;
+  opacity: 0.74;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  max-width: 80vw;
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 112px;
+  margin-bottom: 200px;
+}
+
+.hero {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  height: calc(100%-112px);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  gap: 14px;
+  padding: 0 30px;
+}
+
+.hero>:first-child {
+  font-weight: bold;
+  font-size: 42px;
+  text-align: center;
+}
+
+.hero>:nth-child(2) {
+  font-size: 24px;
+  text-align: center;
+  /* font-family: 'Martel Sans', sans-serif; */
+}
+
+.hero>:nth-child(3) {
+  font-size: 20px;
+  /* font-weight: 400px; */
+  text-align: center;
+}
+
+.getstarted {
+  display: inline-flex;
+  position: relative;
+}
+
+.seperation {
+  height: 9px;
+  background-color: #232323;
+}
+
+.mail {
+  margin-bottom: 169px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 136px;
+}
+
+.btn {
+  padding: 7px 30px;
+  border-radius: 7px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+
+}
+
+.btn-sign {
+  padding: 7px 15px;
+  color: white;
+  background-color: red;
+  border: none;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.mail input {
+  color: white;
+  padding: 23px 162px 18px 20px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid gray;
+  margin-top: 17px;
+}
+
+.btn-get {
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 16px 39px;
+  font-weight: bolder;
+  font-size: x-large;
+  border-radius: 5px;
+  margin-top: 14px;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 70vw;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.secimg {
+  position: relative;
+}
+
+.one img {
+  width: 545px;
+  position: relative;
+  z-index: 10;
+  top: 70px;
+  left: 82px;
+  margin-bottom: 138px;
+}
+
+.secimg video {
+  position: absolute;
+  top: 157px;
+  right: -81px;
+}
+
+.two img {
+  width: 548px;
+  position: relative;
+  z-index: 10;
+  top: 65px;
+  /* right: -2px; */
+  /* left: 43px; */
+  margin-bottom: 121px;
+  margin-left: -87px;
+}
+
+.three img {
+  width: 514px;
+  position: relative;
+  z-index: 10;
+  top: 92px;
+  left: 83px;
+  margin-bottom: 182px;
+  margin-left: -87px;
+}
+
+.three video {
+  top: 102px;
+  right: 75px;
+  left: 92px;
+  width: 309px;
+  height: 224px;
+}
+
+.four img {
+  width: 535px;
+  z-index: 10;
+  top: 63px;
+  left: 20px;
+  margin-bottom: 98px;
+  margin-left: -80px;
+  margin-top: 76px;
+}
+
+.first {
+  font-family: 'Poppins', sans-serif;
+}
+
+.faq {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  position: relative;
+  top: 72px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.faqquestions {
+  color: white;
+  font-size: large;
+  background-color: #2d2d2d;
+  position: relative;
+  padding: 34px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 59vw;
+  margin: auto;
+  top: 86px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.faqquestions:hover {
+  background-color: #414141;
+}
+
+.last {
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  top: 128px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mail2 input {
+  color: white;
+  padding: 23px 162px 18px 20px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid gray;
+  margin-top: 152px;
+  margin-left: 500px;
+  margin-bottom: 61px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    color: white;
+    max-width: 126vw;
+    margin: 24px;
+    padding-left: 181px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+div.question{
+  right: 81px;
+  position: relative;
+  width: 227px;
+}
+.grid a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 14px;
+}
+@media screen and (max-width: 431px) {
+.main {
+  background-image: url(images/image2.jpg);
+  background-position: center center;
+  /* background-repeat: no-repeat; */
+  /* background-size: max(431px, 100vh); */
+  height: 71vh;
+  width: 100%;
+  position: relative;
+}
+.main .box {
+  height: 71vh;
+  width: 100%;
+  opacity: 0.74;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+.rambologo{
+  width: 105px;
+}
+.btn {
+  padding: 7px 8px;
+  border-radius: 7px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+
+}
+
+.btn-sign {
+  padding: 7px 15px;
+  color: white;
+  background-color: red;
+  border: none;
+  margin-left: 15px;
+  cursor: pointer;
+}
+nav{
+  max-width: 93vw;
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 112px;
+  margin-bottom: 60px;
+}
+.hero {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  height: calc(100%-112px);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  gap: 14px;
+  padding: 0 12px;
+}
+.mail {
+    margin-bottom: 169px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 43px;
+}
+.mail input {
+  color: white;
+  padding: 16px 36px 18px 20px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid gray;
+  margin-top: 23px;
+}
+.btn-get {
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 13px 15px;
+  font-weight: bolder;
+  font-size: x-large;
+  border-radius: 5px;
+  margin-top: 24px;
+  margin-left: 5px;
+}
+.one img {
+  width: 335px;
+  position: relative;
+  z-index: 10;
+  top: 195px;
+  left: -51px;
+  margin-bottom: 118px;
+}
+.secimg video {
+  position: absolute;
+  top: 252px;
+  right: 23px;
+  width: 392px;
+  height: 132px;
+}
+}
